@@ -1,4 +1,4 @@
-def is_acceptable_password(stero):
+def is_acceptable_password(stero: str)-> bool:
     """ check multiple conditions on a given string, return True if it passes"""
     
     stero = stero.lower()
